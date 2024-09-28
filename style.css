@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.img-container{
+    height: 300px;
+    width:300px;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin:auto;
+    margin-top: 180px;
+}
+.img-container img{
+    height: 200px;
+    width:200px;
+    /* border: 2px solid blue; */
+    margin-left: 49px;
+    margin-top: 30px;
+}
+.img-container button{
+    height: 46px;
+    width:209px;
+    border: 2px solid brown;
+    margin-left: 49px;
+    padding:10px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(177, 175, 175);
+}
+.img-container button:hover{
+    transition: all .3s;
+    background-color: black;
+    color: white;
+}
